@@ -963,6 +963,8 @@ display: none;}
 .modal-form-input:hover{
     cursor: pointer;
 }
+.modal-form-input:focus{
+cursor: auto;}
 
 .modal-form-check:focus+.modal-form-own-check{
   outline: 2px solid rgba(0, 0, 255, 0.5);
