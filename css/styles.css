@@ -650,8 +650,8 @@ display: flex;
 
 .sub-img-sent{
 position: absolute;
-bottom :0px;
 right: 28px;
+transform: translateY(55%);
 }
 
 .sub-btn-span{
@@ -958,10 +958,15 @@ display: none;}
 .modal-form-check:checked+.modal-form-own-check {
     background-color: var(--accent-color);
     border: 1px solid var(--accent-color);
+    
+}
+.modal-form-input:hover{
+    cursor: pointer;
 }
 
 .modal-form-check:focus+.modal-form-own-check{
   outline: 2px solid rgba(0, 0, 255, 0.5);
+
 }
 
 .modal-form-check:checked+.modal-form-own-check .modal-form-own-check-icon{
